@@ -1,0 +1,108 @@
+
+.mainText > .mainText__first{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E8E8E8;
+}
+
+.mainText > .mainText__first > .mainText__first__left{
+    display: flex;
+    padding: 10px 20px;
+}
+
+.mainText > .mainText__first > .mainText__first__left > .first__div:first-child{
+    margin-left: 10px;
+}
+
+.mainText > .mainText__first > .mainText__first__left > .first__div > select{
+    margin: 0px 5px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    padding: 3px 25px 3px 0px;
+    font-size: 11px;
+    opacity: 0.8;
+}
+
+.mainText > .mainText__first > .mainText__first__left > .second__div > select{
+    margin: 0px 5px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    padding: 3px 25px 3px 0px;
+    font-size: 11px;
+    opacity: 0.8;
+}
+
+.mainText > .mainText__first > .mainText__first__left > .first__div > select:first-child{
+     padding-right: 30px;   
+}
+
+.mainText > .mainText__first > .mainText__first__left > .second__div > span{
+    margin: 4px 3px 0px 5px;
+}
+
+.mainText > .mainText__first > .mainText__first__left > .second__div > input{
+    margin: 4px 5px 4px 0px;
+    cursor: pointer;
+}
+
+.mainText > .mainText__first > .mainText__first__right{
+   padding: 10px 20px;
+}
+
+@media only screen and (max-width: 1185px) {
+    .mainText > .mainText__first > .mainText__first__right{
+        display: flex;
+        flex-direction: column;
+     }
+
+     .mainText > .mainText__first > .mainText__first__right > .second__button{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+} 
+
+.mainText > .mainText__first > .mainText__first__right > button{
+    margin: 0px 5px;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.mainText > .mainText__first > .mainText__first__right > .first__button{
+    border: 1px solid grey;
+}
+
+.mainText > .mainText__first > .mainText__first__right > .second__button{
+    border: 1px solid skyblue;
+    color: skyblue;
+}
+
+.mainText > .mainText__first > .mainText__first__right > .third__button{
+    border: none;
+    background-color: DeepSkyBlue;
+    color: white;
+}
+
+/* -------------------- Text Part-------------------------- */
+
+.mainText > .mainText__second{
+    margin: 20px;
+    height: 100vh;
+}
+
+.mainText > .mainText__second > iframe{
+    border: 1px solid lightgray;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
